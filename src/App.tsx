@@ -6,8 +6,6 @@ import { GameConfig } from './game/config'
 
 export let game: Game;
 
-
-
 function App() {
   
   const canvasRef = useRef<HTMLDivElement>(null)

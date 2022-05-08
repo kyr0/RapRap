@@ -52,11 +52,9 @@ export class BootScene extends Phaser.Scene {
             failureCallback(e)
         }
     });
-
-    //this.load.pack('preload', './assets/pack.json', 'preload');
-    this.load.spritesheet('player', './assets/images/fighter.png', { frameWidth: 27, frameHeight: 32 });
-    this.load.spritesheet('enemy-mine', './assets/images/mine.png', { frameWidth: 32, frameHeight: 32 });
-    this.load.image('background-level1', './assets/images/level1.png');
+    this.load.spritesheet('player', '/images/fighter.png', { frameWidth: 27, frameHeight: 32 });
+    this.load.spritesheet('enemy-mine', '/images/mine.png', { frameWidth: 32, frameHeight: 32 });
+    this.load.image('background-level1', '/images/level1.png');
   }
 
   update(): void {
