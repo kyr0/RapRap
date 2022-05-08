@@ -65,7 +65,7 @@ export class BootScene extends Phaser.Scene {
 
   private createLoadingbar(): void {
     this.loadingBar = this.add.graphics();
-    this.loadingBar.fillStyle(0x5dae47, 1);
+    this.loadingBar.fillStyle(0xffffff, 1);
     this.loadingBar.fillRect(
       this.cameras.main.width / 4 - 2,
       this.cameras.main.height / 2 - 18,
